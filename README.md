@@ -27,6 +27,9 @@ rspec
 From there, webdriver will initialize and begin to run the tests.
 
 To get more information about the tests that are being run, there are options:
+
 1. run the rspec command in this way instead:
+
 rspec spec --format documentation
+
 2. Run the spec file from within an IDE such as RubyMine and it will output green and red boxes for the passing and failing tests respectively.
