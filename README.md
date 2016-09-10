@@ -30,6 +30,7 @@ To get more information about the tests that are being run, there are options:
 
 1. run the rspec command in this way instead:
 
-rspec spec --format documentation
+rspec --format h > output.html
+then view the html file from within the base directory of the project.
 
 2. Run the spec file from within an IDE such as RubyMine and it will output green and red boxes for the passing and failing tests respectively.
